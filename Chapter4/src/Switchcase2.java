@@ -18,6 +18,7 @@ public class Switchcase2 {
 			default:
 				day = 0;
 				break;
+				// defalt는 필수
 		}
 		System.out.println(month + "월은 " + day +"일 까지 있습니다. ");
 	}
