@@ -1,5 +1,3 @@
-import java.util.PrimitiveIterator.OfDouble;
-
 public class IfExample1 {
 
 	public static void main(String[] args) {
