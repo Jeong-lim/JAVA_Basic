@@ -1,3 +1,4 @@
+package ifexample;
 public class Switchcase2 {
 
 	public static void main(String[] args) {
