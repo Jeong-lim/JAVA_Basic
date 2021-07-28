@@ -8,8 +8,10 @@ public class FunctionTest {
 		
 		int sum = addNum(num1, num2);
 		System.out.println(sum);
+		
+		System.out.println(num1);
 
-	}
+	} // function Test
 	
 	public static int addNum(int n1, int n2) {
 		int result = n1 + n2;
