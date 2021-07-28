@@ -6,6 +6,8 @@ public class FunctionTest {
 		 int num1 = 10;
 		 int num2 = 30;
 
+		 int sum = addNum(num1, num2);
+		 System.out.println(sum);
 	}
 	
 	public static int addNum(int n1, int n2) {
