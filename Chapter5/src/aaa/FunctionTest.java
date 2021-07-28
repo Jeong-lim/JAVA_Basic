@@ -8,7 +8,7 @@ public class FunctionTest {
 
 		 int sum = addNum(num1, num2);
 		 System.out.println(sum);
-	}
+	} // d
 	
 	public static int addNum(int n1, int n2) {
 		int result = n1 + n2;
