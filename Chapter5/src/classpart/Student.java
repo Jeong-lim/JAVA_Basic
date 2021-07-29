@@ -19,6 +19,33 @@ public class Student {
 		System.out.println(studentName + "," + address);
 	} // 메소드
 	
+	public String getStudentName() {
+		return studentName;
+	}
+	
+	public void setStudentName(String name) { // 매개변수
+		studentName = name;
+	} // 사용하는 코드의 입장에서 쓴다.
+	
+	public static void main(String[] args) {
+		// 가장 먼저 수행되는 부분
+		
+		Student studentLee = new Student(); //생성자 default 생성자
+		studentLee.studentName = "이순신";
+		studentLee.studentID = 100;
+		studentLee.address = "서울시 영등포구 여의도동";
+		
+		Student studentKim = new Student();
+		studentKim.studentName = "김유신";
+		studentKim.studentID = 111;
+		studentKim.address = "경기도 고양시 주엽역";
+		
+		studentLee.showStudentInfor();
+		studentKim.showStudentInfor();
+		
+	}
+}
+	
 	/*
 	public static void main(String[] args) {
 		
@@ -42,4 +69,4 @@ public class Student {
 	 * 하나의 기능을 수해하는 일련의 코드
 	 * 중복되는 기능은 함수로 구현하여
 	 * 함수를 호출하여 사용함 */
-}
+
