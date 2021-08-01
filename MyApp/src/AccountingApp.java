@@ -3,7 +3,7 @@ public class AccountingApp {
 
 	public static void main(String[] args) {
 		
-		double valueOfSupply = 12345.0;
+		double valueOfSupply = Double.parseDouble(args[0]);
 		double vatRate = 0.1;
 		double expenseRate = 0.3;
 		double vat = valueOfSupply*vatRate;
@@ -22,6 +22,10 @@ public class AccountingApp {
 		System.out.println("Dividend1 : "+ devidend1 );
 		System.out.println("Dividend1 : "+ devidend2 );
 		System.out.println("Dividend1 : "+ devided3 );
+		
+		// Alt+Shift+L = 변수 바꾸기
+		// Find replace = Ctrl + F
+		// Run Configuration 으로 arg를 통해 입력값을 변환할 수 있음
 	}
 
 }
