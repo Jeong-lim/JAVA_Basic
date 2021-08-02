@@ -11,10 +11,6 @@ public class AccountingArrayLoopApp {
 		double expense = valueOfSupply * expenseRate;
 		double income = valueOfSupply - expense;
 		
-		double rate1 = 0.5;
-		double rate2 = 0.5;
-		double rate3 = 0.5;
-
 		double[] dividendRates = new double[3]; // double형의 데이터를 3개를 담을 수 있는 상자
 		dividendRates[0] = 0.5;
 		dividendRates[1] = 0.3;

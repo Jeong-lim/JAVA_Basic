@@ -10,28 +10,24 @@ public class AccountingArrayApp {
 		double total = valueOfSupply + vat;
 		double expense = valueOfSupply * expenseRate;
 		double income = valueOfSupply - expense;
-		
-		double rate1 = 0.5;
-		double rate2 = 0.5;
-		double rate3 = 0.5;
 
-		double[] dividendRates = new double[3]; // double형의 데이터를 3개를 담을 수 있는 상자
-		dividendRates[0] = 0.5;
-		dividendRates[1] = 0.3;
-		dividendRates[2] = 0.2;
-		
-		double dividend1 = income * dividendRates[0];
-		double dividend2 = income * dividendRates[1];
-		double dividend3 = income * dividendRates[2];
-		
 		System.out.println("Value of supply : "+ valueOfSupply);
 		System.out.println("VAT : "+ vat );
 		System.out.println("Total : "+ total );
 		System.out.println("Expense : "+ expense );
 		System.out.println("Income : "+ income );
-		System.out.println("Dividend1 : "+ dividend1 );
-		System.out.println("Dividend1 : "+ dividend2 );
-		System.out.println("Dividend1 : "+ dividend3 );
+		
+		double[] dividendRates = new double[3]; // double형의 데이터를 3개를 담을 수 있는 상자
+		dividendRates[0] = 0.5;
+		dividendRates[1] = 0.3;
+		dividendRates[2] = 0.2;
+		
+		int i =0;
+		while(i < dividendRates.length) {
+			System.out.println("Dividend : " + (income * dividendRates[i]) );
+			i = i + 1;
+		}
+		
 		
 	}
 
