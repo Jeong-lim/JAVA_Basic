@@ -1,5 +1,5 @@
 
-public class AccountingApp {
+public class AccountingIFUnder1000App {
 
 	public static void main(String[] args) {
 		
@@ -11,9 +11,9 @@ public class AccountingApp {
 		double expense = valueOfSupply*expenseRate;
 		double income = valueOfSupply - expense;
 		
-		double devidend1 = income * 0.5;
-		double devidend2 = income * 0.3;
-		double devided3 = income * 0.2;
+		double devidend1 = income * 1;
+		double devidend2 = income * 0;
+		double devidend3 = income * 0;
 		
 		System.out.println("Value of supply : "+ valueOfSupply);
 		System.out.println("VAT : "+ vat );
@@ -22,7 +22,7 @@ public class AccountingApp {
 		System.out.println("Income : "+ income );
 		System.out.println("Dividend1 : "+ devidend1 );
 		System.out.println("Dividend1 : "+ devidend2 );
-		System.out.println("Dividend1 : "+ devided3 );
+		System.out.println("Dividend1 : "+ devidend3 );
 		
 		// Alt+Shift+L = 변수 바꾸기
 		// Find replace = Ctrl + F
