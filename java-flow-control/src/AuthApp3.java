@@ -4,6 +4,7 @@ public class AuthApp3 {
 	public static void main(String[] args) {
 		
 		// String[] users = {"egoing", "jeonglim", "youbin"};
+		// 정렬 안의 정렬
 		String[][] users =  {
 				{"egoing", "1111"},
 				{"jinhuck", "2222"},
