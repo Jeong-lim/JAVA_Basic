@@ -12,7 +12,7 @@ public class WhyMethod {
         printTwoTimes("b", "!");
 
 	}
-    								//매개변수,parameter 
+    								//매개변수,parameter 배열
     public static void printTwoTimes(String text, String delimiter) {
         System.out.println(delimiter);
         System.out.println(text);
